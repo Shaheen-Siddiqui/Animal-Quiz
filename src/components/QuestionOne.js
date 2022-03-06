@@ -3,7 +3,6 @@ import {Link} from 'react-router-dom'
 
 
 const QuestionOne = () => {
-  let [dogState,setDogState]=useState("Lion");
   return (
     <div>
       <div className='backImage'>
@@ -13,7 +12,7 @@ const QuestionOne = () => {
           <button className="btn btn-secondary">Squirrel. </button>
           <button className="btn btn-secondary"> Dog  </button>
           <button className="btn btn-secondary">Chimpanzee </button>
-        <Link to='/questiotwo'><button className="btn btn-secondary"> {dogState} </button></Link>  
+        <Link to='/questiotwo'><button className="btn btn-secondary"> Lion </button></Link>  
 
       </div>
       </div>
